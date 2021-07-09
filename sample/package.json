@@ -3,7 +3,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1"
     "crypto-js": "^4.0.0",
     "download": "^8.0.0",
     "got": "^11.5.1",
