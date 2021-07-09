@@ -254,7 +254,7 @@ update_qinglong() {
     local no_restart="$1"
     echo -e "--------------------------------------------------------------\n"
     [ -f $dir_root/package.json ] && ql_depend_old=$(cat $dir_root/package.json)
-    reset_romote_url ${dir_root} "${github_proxy_url}https://github.com/drew0531/3321.git"
+    reset_romote_url ${dir_root} "${github_proxy_url}https://github.com/drew0531/ql-ts.git"
     git_pull_scripts $dir_root
 
     if [[ $exit_status -eq 0 ]]; then
