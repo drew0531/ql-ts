@@ -32,7 +32,6 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
                              zlib-dev \
                              gcc \
                              jpeg-dev \
-                             python3-dev \
                              musl-dev \
                              freetype-dev \
     && rm -rf /var/cache/apk/* \
