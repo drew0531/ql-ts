@@ -63,8 +63,8 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     && cnpm i -g typescript  \
     && cnpm i -g ts-node \
     && cnpm i -S axios \
-    && cnpm i -g  date-fns \
-    && cnpm i -g tslib \
-    && cnpm i -g fs \    
+    && cnpm i -S  date-fns \
+    && cnpm i -S tslib \
+    && cnpm i -S fs \    
     && pip3 install requests 
 ENTRYPOINT ["./docker/docker-entrypoint.sh"]
