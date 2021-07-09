@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 LABEL maintainer="drew0531"
-ARG QL_URL=https://github.com/drew0531/3321.git
+ARG QL_URL=https://github.com/drew0531/ql-ts.git
 ARG QL_BRANCH=master
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
     LANG=zh_CN.UTF-8 \
