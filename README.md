@@ -9,7 +9,7 @@
 <div align="center">
 
  
-python、ts-node和javaScript的定时任务管理面板
+python、typescript和javaScript的定时任务管理面板
 
 
   
