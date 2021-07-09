@@ -62,7 +62,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     && cnpm i \
     && cnpm i -g typescript  \
     && cnpm i -g ts-node \
-    && cnpm i -g axios \
+    && cnpm i -S axios \
     && cnpm i -g  date-fns \
     && cnpm i -g tslib \
     && cnpm i -g fs \    
